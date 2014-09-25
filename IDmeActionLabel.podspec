@@ -4,7 +4,8 @@ Pod::Spec.new do |s|
   s.summary      = "Adds Target-Action support for UILabel."
   s.homepage     = "https://github.com/IDme/IDmeActionLabel"
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/IDme/IDmeActionLabel", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/IDme/IDmeActionLabel.git", :tag => "1.0.0" }
+  s.requires_arc = true
   s.source_files = 'IDmeActionLabel/*.{h,m}'
   s.author       = { "Arthur Ariel Sabintsev" => "arthur@sabintsev.com" }
   s.license      = 'MIT'
