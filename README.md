@@ -29,7 +29,7 @@ There are only two methods:
 - (void)addInvocation:(NSInvocation *)invocation forSubstring:(NSString *)substring;
 
 // Removes an existing NSInvocation from the UILabel for a given substring
-- (void)removeInvocationForSubstring:(NSString *)substring;
+- (void)removeInvocation:(NSInvocation *)invocation forSubstring:(NSString *)substring
 ```
 
 ### Sample Project
