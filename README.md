@@ -10,7 +10,7 @@
 
 ### Current Features
 - Support for adding multiple target-actions (via `NSInvocation`) to a `UILabel`
-- Support for Labels that use `NSAttirubtedString`
+- Support for Labels that use `NSAttributedString`
 
 ### Future Features
 - Change NSAttributedString properties on tap.
